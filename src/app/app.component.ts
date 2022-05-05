@@ -70,3 +70,13 @@ export class AppComponent {
     this.result = '';
   }
 }
+
+/* 
+
+this.input.indexOf('+')+1 ||
+{this.input.indexOf("'-'")+1 ||
+this.input.indexOf('*')+1 ||
+this.input.indexOf('/')+1 ||
+this.input.indexOf('%')+1}
+
+*/

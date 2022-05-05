@@ -15,8 +15,10 @@
 
 .input {
   text-align: right;
+  margin: 3px;
 }
 .result {
+  margin: 20px 3px 0 0;
   text-align: right;
 }
 
