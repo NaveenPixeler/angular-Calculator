@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="display">
+    <div class="input">
+      {{ input }}
+    </div>
+
+    <div class="result">
+      {{ result }}
+    </div>
+  </div>
+
+  <div class="calculator">
+    <button (click)="allClear()" class="cal all-clear">AC</button>
+
+    <button class="cal paranthesis">( )</button>
+
+    <button (click)="onOperatorClick('%')" class="cal percent">%</button>
+
+    <button (click)="onOperatorClick('/')" class="cal division">÷</button>
+
+    <button (click)="onNumberClick('7')" class="cal number seven">7</button>
+
+    <button (click)="onNumberClick('8')" class="cal number eight">8</button>
+
+    <button (click)="onNumberClick('9')" class="cal number nine">9</button>
+
+    <button (click)="onOperatorClick('*')" class="cal multiplication">×</button>
+
+    <button (click)="onNumberClick('4')" class="cal number four">4</button>
+
+    <button (click)="onNumberClick('5')" class="cal number five">5</button>
+
+    <button (click)="onNumberClick('6')" class="cal number six">6</button>
+
+    <button (click)="onOperatorClick('-')" class="cal substraction">-</button>
+
+    <button (click)="onNumberClick('1')" class="cal number one">1</button>
+
+    <button (click)="onNumberClick('2')" class="cal number two">2</button>
+
+    <button (click)="onNumberClick('3')" class="cal number three">3</button>
+
+    <button (click)="onOperatorClick('+')" class="cal addition">+</button>
+
+    <button (click)="onNumberClick('0')" class="cal number zero">0</button>
+
+    <button (click)="onNumberClick('.')" class="cal number decimal-point">
+      •
+    </button>
+
+    <button (click)="delete()" class="cal number clear-one">⌫</button>
+
+    <button (click)="onGetResult()" class="cal get-result">=</button>
+  </div>
+</div>
