@@ -1,4 +1,5 @@
-* {
+* 
+{
   font-family: sans-serif, 'open-sans';
 }
 
@@ -9,8 +10,6 @@
   margin: 0.1em auto;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  /* text-align: center; */
-  /* margin: 1rem; */
 }
 
 .input {
@@ -41,7 +40,7 @@
 }
 
 .all-clear {
-  background-color: #b9f6ca;
+  background-color: #BAFFB4;
 }
 
 .number {

@@ -42,9 +42,10 @@ export class AppComponent {
 
   calculate() {
     if (!this.input) return;
+
     if (
       this.input.includes('+') ||
-      this.input.includes("'-'") ||
+      this.input.includes('-') ||
       this.input.includes('*') ||
       this.input.includes('/') ||
       this.input.includes('%')
@@ -77,6 +78,6 @@ this.input.indexOf('+')+1 ||
 {this.input.indexOf("'-'")+1 ||
 this.input.indexOf('*')+1 ||
 this.input.indexOf('/')+1 ||
-this.input.indexOf('%')+1}
+this.input.indexOf('%')+1
 
 */
